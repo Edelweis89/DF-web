@@ -1,0 +1,58 @@
+
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 767px) {
+  .Up {
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+    width: 5rem;
+    height: 5rem;
+    left: 85%;
+    bottom: 100px;
+    margin: auto;
+  
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #d62828;
+  }
+}
+
+/* Media queries para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Up {
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+    width: 5rem;
+    height: 5rem;
+    left: 85%;
+    bottom: 100px;
+    margin: auto;
+  
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #d62828;
+  }
+}
+
+/* Media queries para computadoras de escritorio */
+@media (min-width: 992px) {
+  .Up {
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+    width: 5rem;
+    height: 5rem;
+    left: 90%;
+    bottom: 100px;
+    margin: auto;
+  
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    color: #d62828;
+  }
+}

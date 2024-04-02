@@ -1,0 +1,85 @@
+/* Media queries para dispositivos móviles */
+@media (max-width: 767px) {
+  .footer {
+    width: 100%;
+    height: 25rem;
+    background-color: #001524;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+
+    .footerText {
+      width: 100%;
+      
+      text-align: center;
+    }
+
+    a{
+      width: 100%;
+      
+
+     
+    }
+    .imgFooter {
+      width: 10%;
+      height: 10%;
+      display: flex; 
+      flex-direction: column;
+      justify-content: space-evenly;
+      
+      
+      margin: auto;
+
+      
+      
+    }
+  }
+}
+
+/* Media queries para tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #001524;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+
+    .imgFooter {
+      width: 100%;
+      height: 4rem;
+    }
+  }
+}
+
+
+/* Media queries para computadoras de escritorio */
+@media (min-width: 992px) {
+  .footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #001524;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+
+    .imgFooter {
+      width: 100%;
+      height: 4rem;
+    }
+  }
+}
